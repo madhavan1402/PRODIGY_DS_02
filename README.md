@@ -1,76 +1,78 @@
 # 🧹 Titanic Dataset – Data Cleaning & Exploratory Data Analysis (EDA)
 
-## 📁 Project Overview
 
-This project involves **data cleaning** and **exploratory data analysis (EDA)** on the Titanic dataset to identify patterns, clean the data, and prepare it for predictive modeling.
+## 📌 Project Description
 
-Key objectives:
-- Clean and preprocess real-world data
-- Identify missing and inconsistent values
-- Explore relationships between variables such as `Survived`, `Pclass`, `Sex`, and `Age`
-- Visualize insights with charts and statistical plots
+In this project, I worked with the **Titanic dataset** to perform thorough **data cleaning** and **exploratory data analysis (EDA)**. The goal was to prepare the dataset for modeling and derive insights from the passenger data using various visualization techniques.
+
+This task served as a foundation for building predictive models by ensuring the dataset is clean, consistent, and well-understood.
 
 ---
 
-## 🗂️ Dataset Description
+## 🔗 Dataset
 
-The dataset used is the [Titanic dataset](https://www.kaggle.com/c/titanic/data), which contains details of passengers aboard the Titanic.
+**Titanic Survival Dataset**  
+- `train.csv` – Training data including features and survival status  
+- `test.csv` – Test data for prediction  
+- `gender_submission.csv` – Example submission file  
 
-Files included:
-- `train.csv` – Training dataset with survival outcomes
-- `test.csv` – Test dataset without survival outcomes
-- `gender_submission.csv` – Sample submission for Kaggle
-- `.png` files – Visualizations created using EDA
-
----
-
-## 📊 Visualizations
-
-📷 Sample plots generated during EDA:
+Additional visualizations saved as `.png`:
 - `age_distribution_by_survival.png`
 - `distribution_of_survival.png`
 - `pairplot_survived.png`
 - `survival_by_gender.png`
 - `survival_by_pclass.png`
 
-These help in visualizing:
-- Survival rate distribution
-- Class and gender impact on survival
-- Age distribution among survivors and non-survivors
+---
+
+## 🛠️ Technologies & Tools
+
+| Technology       | Purpose                              |
+|------------------|--------------------------------------|
+| 🐍 Python         | Programming Language                 |
+| 🧮 Pandas         | Data Wrangling & Cleaning            |
+| 📊 Matplotlib     | Plotting & Visualization             |
+| 🌈 Seaborn        | Statistical Visualization            |
+| 💻 VS Code        | Development Environment              |
 
 ---
 
-## 🧰 Technologies Used
+## ✅ Key Tasks Performed
 
-- 🐍 Python
-- 📚 Pandas
-- 📊 Matplotlib
-- 🌈 Seaborn
-- 💻 Visual Studio Code (VS Code)
+- 🔹 **Data Cleaning**
+  - Handled missing values (Age, Embarked, etc.)
+  - Removed duplicate entries (if any)
+  - Converted categorical data into appropriate formats
 
----
-
-## ⚙️ Features Implemented
-
-- ✅ Handled missing values (Age, Cabin, Embarked)
-- ✅ Converted categorical data for better visualization
-- ✅ Removed duplicates
-- ✅ Created statistical plots using Seaborn and Matplotlib
-- ✅ Cleaned dataset ready for model training
+- 🔹 **Exploratory Data Analysis (EDA)**
+  - Analyzed relationships between `Survived` and variables such as `Sex`, `Pclass`, `Age`
+  - Visualized data using:
+    - **Histograms** to understand distribution
+    - **Boxplots** to analyze spread & outliers
+    - **Pairplots** for multivariate analysis
+    - **Bar charts** for category-wise survival comparison
 
 ---
 
-## 📌 How to Run
+## 📊 Output Highlights
 
-1. Clone the repository  
-2. Open in VS Code  
-3. Run `titanic.py` or open Jupyter Notebook if preferred  
-4. Ensure required libraries (`pandas`, `matplotlib`, `seaborn`) are installed
-
-```bash
-pip install pandas matplotlib seaborn
-
-> 📌 **Task 02 – Data Cleaning & EDA**  
-> ✅ Completed as part of the **Data Science Internship** at **Prodigy InfoTech**
+- ✅ Found higher survival rates among females and passengers in 1st class  
+- ✅ Identified key features like `Sex`, `Age`, and `Pclass` that correlate with survival  
+- ✅ Dataset is now cleaned and ready for machine learning models
 
 ---
+
+## 🎓 Internship Acknowledgment
+
+This project was successfully completed as **Task 02: Data Cleaning & Exploratory Data Analysis** during my **Data Science Internship at Prodigy InfoTech**.
+
+---
+
+## 👨‍💻 Author
+
+**Madhavan N**  
+_B.Tech in AI & DS | Data Science Intern @Prodigy InfoTech_  
+[GitHub – madhavan1402](https://github.com/madhavan1402)
+
+---
+
